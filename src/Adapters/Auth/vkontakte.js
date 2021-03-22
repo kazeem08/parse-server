@@ -43,7 +43,7 @@ function vkOAuth2Request(params) {
       );
     }
     if (!params.apiVersion) {
-      params.apiVersion = '5.124';
+      params.apiVersion = '5.130';
     }
     resolve();
   }).then(function () {
